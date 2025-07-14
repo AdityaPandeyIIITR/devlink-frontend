@@ -1,0 +1,62 @@
+.dashboard-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fafafa;
+}
+
+.link-card p {
+  margin: 0.5rem 0;
+}
+
+.link-card button {
+  margin-top: 0.5rem;
+  padding: 6px 10px;
+  background-color: #2c87f0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.link-card button:hover {
+  background-color: #1860c4;
+}
+.shorten-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.shorten-form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.shorten-form button {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.shorten-form button:hover {
+  background-color: #218838;
+}
